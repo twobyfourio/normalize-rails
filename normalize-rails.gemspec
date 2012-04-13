@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "normalize-rails"
   gem.require_paths = ["lib"]
   gem.version       = Normalize::Rails::VERSION
+  
+  gem.add_development_dependency "rake"
 end
