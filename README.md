@@ -23,8 +23,8 @@ And then execute:
 
 And then in your application.css
 
-    *= require_self
     *= require normalize-rails
+    *= require_self
     *= require_tree .
     
 Add it before require_tree so that you can override any of its styles.
